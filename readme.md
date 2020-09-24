@@ -1,3 +1,1 @@
-# Hi
-
-Turovtsova Nadya SC1-77-20
+# Turovtsova Nadya SC1-77-20
