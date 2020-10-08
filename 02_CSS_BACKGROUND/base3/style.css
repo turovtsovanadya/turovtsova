@@ -1,0 +1,40 @@
+nav {
+    float: left;
+    width: 15em;
+    background-color: #ccc;
+}
+
+main {
+    overflow: hidden;
+}
+
+article {
+    background-color: #aaa;
+    margin-bottom: 2em;
+}
+
+article h4 {
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+article img {
+    float: right;
+    width: 100px;
+    margin: 5px;
+}
+
+article p {
+    margin: 0;
+}
+
+article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+footer {
+    clear: both;
+    background-color: #ccc;
+}

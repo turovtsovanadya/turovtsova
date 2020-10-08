@@ -1,0 +1,16 @@
+.list-header {
+    font-weight: bold;
+    margin: 0;
+}
+
+ol {
+    line-height: 1.4;
+}
+
+code {
+    color: #0c0;
+    background-color: #000;
+    white-space: pre;
+    display: block;
+    width: 300px;
+}
