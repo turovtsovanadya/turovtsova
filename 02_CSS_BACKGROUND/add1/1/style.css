@@ -1,0 +1,14 @@
+.multi-background {
+    background:
+        url('image/left-top.png') no-repeat top left,
+        url('image/right-top.png') no-repeat top right,
+        url('image/right-bottom.png') no-repeat bottom right,
+        url('image/left-bottom.png') no-repeat bottom left,
+        url('image/top.png') repeat-x top,
+        url('image/right.png') repeat-y right,
+        url('image/bottom.png') repeat-x bottom,
+        url('image/left.png') repeat-y left
+    ;
+    max-width: 66%;
+    padding: 147px;
+}

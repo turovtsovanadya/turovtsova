@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+    align-items: flex-start;
+}
+
+nav {
+    width: 15em;
+    flex-shrink: 0;
+    background-color: #ccc;
+}
+
+main {
+    flex-grow: 1;
+}
+
+article {
+    background-color: #aaa;
+    margin-bottom: 2em;
+}
+
+article h4 {
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+img {
+    width: 100px;
+    margin: 5px;
+}
+
+article p {
+    margin: 0;
+}
+
+footer {
+    background-color: #ccc;
+}
