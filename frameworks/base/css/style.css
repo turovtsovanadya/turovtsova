@@ -1,0 +1,9 @@
+.container-padded {
+    padding-top: 20px;
+}
+
+code {
+    padding: 5px 12px;
+    margin-bottom: 10px;
+    display: block;
+}

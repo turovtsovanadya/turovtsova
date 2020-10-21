@@ -1,0 +1,25 @@
+form {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input.valid {
+    border: 1px solid #0c0;
+    box-shadow: 0 0 10px rgba(0, 200, 0, 0.5);
+    background-color: #cfc;
+}
+
+input.invalid {
+    border: 1px solid #c00;
+    box-shadow: 0 0 10px rgba(200, 0, 0, 0.5);
+    background-color: #fcc;
+}
